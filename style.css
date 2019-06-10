@@ -30,6 +30,10 @@ tr {
   color: black;
 }
 
+.new-deal {
+  width: 100%;
+}
+
 /* accordian  */
 .accordian {
   cursor: pointer;
