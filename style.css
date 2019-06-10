@@ -1,9 +1,11 @@
 body {
   color: black;
-  /* background-color: green; */
+  background-color: green;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
+/* tables */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -26,4 +28,33 @@ th {
 tr {
   background-color: #f2f2f2;
   color: black;
+}
+
+/* accordian  */
+.accordian {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
 }
